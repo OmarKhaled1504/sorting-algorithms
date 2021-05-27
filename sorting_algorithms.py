@@ -1,4 +1,4 @@
-a = [7, 3, 4, 1, 5, 2]
+
 
 
 def selection_sort(a):
@@ -132,7 +132,7 @@ def heap_sort(a):
         a[i], a[0] = a[0], a[i]
         heapify(a, i, 0)
 
-
+a = [7, 3, 4, 1, 5, 2]
 selection_sort(a)
 a = [7, 3, 4, 1, 5, 2]
 bubble_sort(a)
